@@ -1,4 +1,3 @@
-
 class User {
   final String username;
   final String password; // Assume password is handled securely and not stored directly

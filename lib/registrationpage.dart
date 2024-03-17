@@ -14,7 +14,6 @@ class _RegistrationPageState extends State<RegistrationPage> {
   String _password = '';
 
   void _register() async {
-  // Assuming you have a User model and a DatabaseHelper class
   var newUser = User(username: _username, password: _password); // Replace with actual data fields
   await DatabaseHelper.insertUser(newUser); // Insert the new user into the database
 
